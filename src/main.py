@@ -99,7 +99,7 @@ def plot_loss(history):
 # === MAIN ===
 
 # Load Stock data
-stock_file = "TATAMOTORS.NS.csv"
+stock_file = "data/TATAMOTORS.NS.csv"
 
 # Step 1: Load and preprocess
 df, data = load_and_preprocess_data(stock_file)
